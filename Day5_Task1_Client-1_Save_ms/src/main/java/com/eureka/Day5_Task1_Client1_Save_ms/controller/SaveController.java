@@ -18,7 +18,7 @@ public class SaveController {
 	@RequestMapping("/")
 	public String home()
 	{
-		return "Welcome To Save Data";
+		return "Welcome";
 	}
 	
 	@PostMapping("/saveData")
